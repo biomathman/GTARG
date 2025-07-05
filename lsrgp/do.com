@@ -1,0 +1,1 @@
+$ date$ purge$ build_library lsrgp$ purge$ sb$ link lsrgp_test, -[-]lsrgp/lib, -tpxorb/lib, -timetrans/lib,print/lib,tpxutil/lib,pgplot/lib,navsys/lib$ purge$ @lsrgp_test run.nml

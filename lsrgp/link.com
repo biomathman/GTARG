@@ -1,0 +1,1 @@
+$ link lsrgp_test, -lsrgp/lib, -tpxolb:tpxorb/lib, -tgs_sharelib:topex_time/lib, -tgs_sharelib:print/lib,-tpxolb:tpxutil/lib, -tgs_sharelib:navsys/lib$! pgplot/lib,-
