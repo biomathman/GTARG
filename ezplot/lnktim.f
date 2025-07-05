@@ -1,0 +1,1 @@
+        FUNCTION LNKTIM()        CHARACTER*(*) LNKTIM        LNKTIM = '26-FEB-98 23:00:25'        END

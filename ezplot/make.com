@@ -1,0 +1,1 @@
+$for := fortran/alignment=all/convert=vaxd/warning=alignment$	FOR/LIS TEST$!$	for/lis linktime.ffor$	link linktime$	run linktime$	for lnktim.f$	pu lnktim.f$	pu lnktim.obj$!$!   link EZPLOT$!$LINK     TEST/EXE=TEST.EXE,LNKTIM,GTARG/lib,pgplot/lib
