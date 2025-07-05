@@ -1,0 +1,1 @@
+	character*24 FUNCTION jd2ch( jd )	double precision jd	external sec2ch	character*24 sec2ch, RESULT	RESULT = sec2ch ( (jd-2451545.0D0)*86400.0d0 )	JD2CH = RESULT	return	end

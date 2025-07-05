@@ -1,0 +1,1 @@
+	double precision FUNCTION POLY(x, c, n )CC	evaluates y = c(1) + c(2)*x + c(3)*x^2 + ... + c(n)*x^n-1C	double precision x, c(n), y        y = c(n-1) + c(n) * x        do i = 1, n-2          j = n-1-i          y = c(j) + y*x        end do	        poly = y	return	end
